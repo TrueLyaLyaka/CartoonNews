@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: eef100b0720f29f469882c87ecbf420e
+timeCreated: 1460829646
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DrawsItems_Zalivka
+    21300002: DrawsItems_Z2
+    21300004: DrawsItems_Kreml
+    21300006: DrawsItems_Z1
+    21300008: DrawsItems_Z3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DrawsItems_Zalivka
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 597
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: DrawsItems_Z2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 445
+        width: 33
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 76}
+        - {x: -15.5, y: 76}
+        - {x: -16.5, y: 71}
+        - {x: -16.5, y: -75}
+        - {x: 16.5, y: -75}
+        - {x: 16.5, y: 70}
+      - - {x: 0.5, y: -60}
+        - {x: 1.5, y: -60}
+        - {x: 2.5, y: -61}
+        - {x: 2.5, y: -60}
+    - name: DrawsItems_Kreml
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 259
+        width: 126
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: -112}
+        - {x: 47, y: 12}
+        - {x: 19, y: 116}
+        - {x: 4, y: 116}
+        - {x: -63, y: -61}
+        - {x: -63, y: -168}
+        - {x: -58, y: -168}
+        - {x: -53, y: -167}
+        - {x: -42, y: -140}
+        - {x: 38, y: -168}
+        - {x: 63, y: -168}
+      - - {x: 1, y: 168}
+        - {x: -9, y: 163}
+        - {x: -9, y: 134}
+        - {x: -5, y: 125}
+        - {x: -3, y: 124}
+        - {x: 0, y: 124}
+        - {x: 3, y: 126}
+        - {x: -6, y: 117}
+        - {x: -9, y: 115}
+        - {x: -9, y: 112}
+        - {x: -7, y: 105}
+        - {x: 1, y: 105}
+        - {x: 4, y: 107}
+        - {x: 39, y: 117}
+        - {x: 39, y: 167}
+        - {x: 37, y: 168}
+    - name: DrawsItems_Z1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 445
+        width: 32
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -72.5}
+        - {x: -5, y: -72.5}
+        - {x: -6, y: -69.5}
+        - {x: -11, y: -68.5}
+        - {x: -13, y: -70.5}
+      - - {x: 13, y: -10.5}
+        - {x: 12, y: -15.5}
+        - {x: 13, y: -26.5}
+        - {x: 15, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 16, y: 61.5}
+        - {x: 6, y: 72.5}
+        - {x: -7, y: 72.5}
+        - {x: -16, y: 60.5}
+        - {x: -16, y: -56.5}
+        - {x: -15, y: -69.5}
+        - {x: 11, y: -69.5}
+        - {x: 14, y: -64.5}
+        - {x: 13, y: -21.5}
+        - {x: 12, y: -16.5}
+      - - {x: 13, y: -41.5}
+        - {x: 15, y: -43.5}
+        - {x: 16, y: -43.5}
+        - {x: 16, y: -37.5}
+        - {x: 13, y: -38.5}
+      - - {x: 13, y: -33.5}
+        - {x: 15, y: -35.5}
+        - {x: 16, y: -35.5}
+        - {x: 16, y: -28.5}
+        - {x: 13, y: -29.5}
+    - name: DrawsItems_Z3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 447
+        width: 35
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 75}
+        - {x: -7.5, y: 75}
+        - {x: -17.5, y: 57}
+        - {x: -17.5, y: -75}
+        - {x: 17.5, y: -75}
+        - {x: 17.5, y: -10}
+        - {x: 14.5, y: 53}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: c5f7e6627fc2c964883ad2d23b80a417
+timeCreated: 1458415652
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: H_Head
+    21300002: H_Mouth_01
+    21300004: H_WristL_1
+    21300006: H_WristR_01
+    21300008: H_HandL_01
+    21300010: H_eye_01
+    21300012: H_zr
+    21300014: H_Foot
+    21300016: H_galstuk
+    21300018: H_HandR_01
+    21300020: H_Foot_01
+    21300022: H_Foot_02
+    21300024: H_Body_01
+    21300026: H_HeadPart_01
+    21300028: H_BrowR_01
+    21300030: H_BrowL_01
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 256
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: H_Head
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 4
+        width: 136
+        height: 106
+      alignment: 9
+      pivot: {x: 0.3980558, y: 0.035741407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_Mouth_01
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 61
+        width: 45
+        height: 32
+      alignment: 9
+      pivot: {x: 0.22561815, y: 0.15684104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_WristL_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 18
+        width: 36
+        height: 30
+      alignment: 9
+      pivot: {x: 0.13040246, y: 0.6933277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_WristR_01
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 54
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5529101, y: 0.8341685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_HandL_01
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 6
+        width: 40
+        height: 53
+      alignment: 9
+      pivot: {x: 0.18269996, y: 0.8970191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_eye_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 97
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_zr
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 143
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_Foot
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 54
+        height: 32
+      alignment: 9
+      pivot: {x: 0.24419703, y: 0.75730705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_galstuk
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 6
+        width: 31
+        height: 87
+      alignment: 9
+      pivot: {x: 0.38276672, y: 0.85216373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_HandR_01
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 138
+        width: 52
+        height: 42
+      alignment: 9
+      pivot: {x: 0.8891942, y: 0.78344655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_Foot_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 181
+        width: 22
+        height: 47
+      alignment: 9
+      pivot: {x: 0.37373734, y: 0.87094545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_Foot_02
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 182
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5466853, y: 0.86155194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_Body_01
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 61
+        width: 61
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5126569, y: 0.12425883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_HeadPart_01
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 124
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_BrowR_01
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: H_BrowL_01
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 5d92df72901cae1488443eaff91c8ce0
+timeCreated: 1467550048
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GranMother_0
+    21300002: GranMother_1
+    21300004: GranMother_2
+    21300006: GranMother_3
+    21300008: GranMother_4
+    21300010: GranMother_5
+    21300012: GranMother_6
+    21300014: GranMother_7
+    21300016: GranMother_8
+    21300018: GranMother_9
+    21300020: GranMother_10
+    21300022: GranMother_11
+    21300024: GranMother_12
+    21300026: GranMother_13
+    21300028: GranMother_14
+    21300030: GranMother_15
+    21300032: GranMother_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GranMother_0
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 193
+        width: 150
+        height: 169
+      alignment: 9
+      pivot: {x: .33453083, y: .391928583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 185
+        width: 108
+        height: 177
+      alignment: 9
+      pivot: {x: .486991316, y: .177210659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 67
+        height: 53
+      alignment: 9
+      pivot: {x: .0666393489, y: .862276495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 140
+        width: 55
+        height: 46
+      alignment: 9
+      pivot: {x: .0657498464, y: .846140981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 187
+        width: 39
+        height: 66
+      alignment: 9
+      pivot: {x: .487992316, y: .79801476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 216
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: .1523159, y: .647886992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 255
+        width: 50
+        height: 41
+      alignment: 9
+      pivot: {x: .219014734, y: .854087293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 256
+        width: 24
+        height: 48
+      alignment: 9
+      pivot: {x: .5, y: .79269284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 256
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: .203722894, y: .872518361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 301
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 319
+        width: 25
+        height: 46
+      alignment: 9
+      pivot: {x: .293943495, y: .897044301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 310
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 336
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 333
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 348
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GranMother_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 189
+        width: 51
+        height: 27
+      alignment: 9
+      pivot: {x: .0929645672, y: .0946050584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
