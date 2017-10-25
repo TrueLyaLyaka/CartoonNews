@@ -2,8 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CartoonNews\scripts\forUnits\DriverAnimCharacter.cs">
     <Files>
-      <File FileName="Assets\CartoonNews\scripts\forUnits\Bestiariy.cs" Line="1" Column="1" />
+      <File FileName="Assets\CartoonNews\scripts\forUnits\Bestiariy.cs" Line="15" Column="38" />
+      <File FileName="Assets\CartoonNews\scripts\GameDrivers\SceenLoadTimer.cs" Line="27" Column="1" />
+      <File FileName="Assets\CartoonNews\scripts\GameDrivers\SceneChanger.cs" Line="7" Column="55" />
       <File FileName="Assets\CartoonNews\scripts\forUnits\DriverAnimCharacter.cs" Line="41" Column="6" NotebookId="1" />
+      <File FileName="Assets\CartoonNews\scripts\GameDrivers\GM.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
