@@ -6,7 +6,7 @@ public class DriverAnimCharacter : MonoBehaviour
 {
     public Bestiariy.namePersonCharacters namePerson;
     private Animator takeAnimator = null;
-
+    public string tagUnit;
 
 
     #region Health   
@@ -38,7 +38,7 @@ public class DriverAnimCharacter : MonoBehaviour
     }
 	// Use this for initialization
 	void Start() 
-    {
+    {		
         takeAnimator = GetComponentInChildren<Animator>();
         Health=100f;
         takeAnimator.SetTrigger("jump");
