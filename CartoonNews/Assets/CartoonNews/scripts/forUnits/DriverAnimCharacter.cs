@@ -4,7 +4,7 @@ using UnityStandardAssets.CrossPlatformInput;
     
 public class DriverAnimCharacter : MonoBehaviour 
 {
-    public Bestiariy.namePersonCharacters namePerson;
+    public Lib.namePersonCharacters namePerson;
     private Animator takeAnimator = null;
     public string tagUnit;
 
@@ -34,7 +34,7 @@ public class DriverAnimCharacter : MonoBehaviour
     {
         Debug.Log(gameObject.name + " was die");
         takeAnimator.SetTrigger("dead");
-        gameObject.tag="dead";
+        gameObject.tag=Lib.UseTag(Lib.UTags.dead);
     }
 	// Use this for initialization
 	void Start() 
@@ -55,6 +55,6 @@ public class DriverAnimCharacter : MonoBehaviour
         {
             Health=0;
         }
-        if (Health<=0 && gameObject.tag=="Player") Die();
+        if (Health<=0 && gameObject.tag==Lib.UseTag(Lib.UTags.Player)) Die();
 	}    
 }

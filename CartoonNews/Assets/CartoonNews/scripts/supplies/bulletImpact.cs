@@ -24,9 +24,10 @@ public class bulletImpact : MonoBehaviour
             if (PrtLooseBullet!=null)
             {
                 Instantiate(PrtLooseBullet);
-                PrtLooseBullet.transform.position=new Vector3(gameObject.transform.position.x,
-                                                                 gameObject.transform.position.y,
-                                                                 gameObject.transform.position.z);
+                PrtLooseBullet.transform.position=
+                				new Vector3(gameObject.transform.position.x,
+                                            gameObject.transform.position.y,
+                                            gameObject.transform.position.z);
             }
             Die();
         } 
@@ -35,9 +36,10 @@ public class bulletImpact : MonoBehaviour
             if (PrtIsGoal!=null)
             {              
                 Instantiate(PrtIsGoal);
-                PrtIsGoal.transform.position=new Vector3(gameObject.transform.position.x,
-                    gameObject.transform.position.y,
-                    gameObject.transform.position.z);
+                PrtIsGoal.transform.position=
+                				new Vector3(gameObject.transform.position.x,
+                    			gameObject.transform.position.y,
+                   				gameObject.transform.position.z);
             }
             DriverAnimCharacter.Health-=Damage;
             Die();   
@@ -48,5 +50,4 @@ public class bulletImpact : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
 }

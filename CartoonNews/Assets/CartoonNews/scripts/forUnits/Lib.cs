@@ -3,7 +3,7 @@ using System.Collections;
 // case all unit datas
 // 
 
-public class Bestiariy : MonoBehaviour
+public class Lib : MonoBehaviour
 {
     public enum namePersonCharacters {Huilo, Cat, OldWoman};// characters
 
