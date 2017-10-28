@@ -36,7 +36,7 @@ public class Lib : MonoBehaviour
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        //Debug.Log("it dont plase be here");
+        
 	}
 }
 /*

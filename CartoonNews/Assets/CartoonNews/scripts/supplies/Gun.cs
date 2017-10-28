@@ -34,6 +34,7 @@ public class Gun : MonoBehaviour {
 			}
 			ShootOn=false;
 		}
+
 	}
 
 	IEnumerator AutomaticShoot ()
