@@ -43,18 +43,16 @@ public class Gun : MonoBehaviour {
 			yield return new WaitForSeconds (1 / BulletsPerSec);
 			if (AmmoCount <= 0) {
 				StopCoroutine (AutomaticShoot ());
-				Debug.Log ("Stopped");
 			}
 		}
 	}
 
 	void Update ()	{
-			shoot ();	
-			if (AutomaticFire)
-			{		
-				AutomaticFire=false;		
-				StartCoroutine(AutomaticShoot ());
-			}
+		shoot ();	
+		if (AutomaticFire) {		
+			AutomaticFire=false;		
+			StartCoroutine(AutomaticShoot ());
+		}
 	}
 
 
