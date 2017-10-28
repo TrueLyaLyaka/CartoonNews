@@ -12,7 +12,7 @@ public class Lib : MonoBehaviour
 
     public enum UTags{dead, Player, UnitNeutrall, enemy};
 
-    public UTags StateTag=UTags.dead;
+    public UTags StateTag=UTags.UnitNeutrall;
 
     #endregion
 
@@ -23,6 +23,7 @@ public class Lib : MonoBehaviour
             case (UTags.dead):return "dead";break; 
             case (UTags.Player):return "Player";break; 
             case (UTags.enemy):return "Enemy";break; 
+			case (UTags.UnitNeutrall):return "Neutral";break; 
                 
             default: return "enemy"; break;               
         }

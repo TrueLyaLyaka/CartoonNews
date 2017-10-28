@@ -5,10 +5,11 @@ using UnityEngine;
 public class Gun : MonoBehaviour {
 
 	[SerializeField] GameObject Bullet;
+	public int AmmoCount=10;
 	Transform ThisTransform;
 	public bool ShootOn=false;
-	public bool AtomaticFire=false;
-	public int BulletsPerSec=1;
+	public bool AutomaticFire=false;
+	public float BulletsPerSec=0.5f;
 	public float Damage=50f;
 	public float BulletSpeed=2f;
 	public float BulletLifeTime=2f;
@@ -16,7 +17,7 @@ public class Gun : MonoBehaviour {
 		ThisTransform=GetComponent<Transform>();
 	}
 	void shoot () {
-		if (ShootOn) {
+		if (ShootOn && AmmoCount>0) {
 			GameObject thisBullet=Instantiate(Bullet,
 								ThisTransform.position,
 								ThisTransform.rotation) as GameObject;
@@ -25,18 +26,35 @@ public class Gun : MonoBehaviour {
 			SetupBullet1.Damage=Damage;
 			SetupBullet1.LifeTime=BulletLifeTime;
 			SetupBullet2.BulletSpeed=BulletSpeed;
-
+			AmmoCount--;
+			if (AmmoCount<=0){
+				AmmoCount=0;
+				AutomaticFire=false;
+				Debug.Log ("Ammo is finished");
+			}
 			ShootOn=false;
 		}
 	}
 
-	void automaticShoot ()
+	IEnumerator AutomaticShoot ()
 	{
-
+		while (AmmoCount > 0) {
+			ShootOn = true;
+			yield return new WaitForSeconds (1 / BulletsPerSec);
+			if (AmmoCount <= 0) {
+				StopCoroutine (AutomaticShoot ());
+				Debug.Log ("Stopped");
+			}
+		}
 	}
 
-	void Update() {
-		shoot();
+	void Update ()	{
+			shoot ();	
+			if (AutomaticFire)
+			{		
+				AutomaticFire=false;		
+				StartCoroutine(AutomaticShoot ());
+			}
 	}
 
 

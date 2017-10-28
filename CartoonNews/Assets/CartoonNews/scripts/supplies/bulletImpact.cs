@@ -20,7 +20,7 @@ public class bulletImpact : MonoBehaviour
     {
         if (!other.CompareTag("Player")) 
         {
-            Debug.Log("collided "+ other.tag);
+            //Debug.Log("collided "+ other.tag);
             if (PrtLooseBullet!=null)
             {
                 Instantiate(PrtLooseBullet);
