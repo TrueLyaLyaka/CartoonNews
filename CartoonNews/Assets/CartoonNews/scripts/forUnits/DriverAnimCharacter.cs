@@ -7,7 +7,7 @@ public class DriverAnimCharacter : MonoBehaviour
     public Lib.namePersonCharacters namePerson;
     private Animator takeAnimator = null;
     public string tagUnit;
-
+    private HUD HUDHelth;
 
     #region Health   
     public static float Health
@@ -30,18 +30,18 @@ public class DriverAnimCharacter : MonoBehaviour
     #endregion
 
 
-    void Die()
-    {
+    void Die()  {
         Debug.Log(gameObject.name + " was die");
         takeAnimator.SetTrigger("dead");
         gameObject.tag=Lib.UseTag(Lib.UTags.dead);
     }
 	// Use this for initialization
-	void Start() 
-    {		
+	void Start() {		
         takeAnimator = GetComponentInChildren<Animator>();
         Health=100f;
         takeAnimator.SetTrigger("jump");
+        HUDHelth=FindObjectOfType<HUD>();
+		//float HUDHelthStartSize=HUDHelth.HelthBarSkaleX.localScale.x;
 	}
     #region For animations event
 
@@ -56,5 +56,10 @@ public class DriverAnimCharacter : MonoBehaviour
             Health=0;
         }
         if (Health<=0 && gameObject.tag==Lib.UseTag(Lib.UTags.Player)) Die();
+
+        if (HUDHelth!=null){
+			//HUDHelth.HelthBarSkaleX.localScale.x=HUDHelth.HelthBarSkaleX.localScale.x*Health/100;
+			//HUDHelth.HelthBarSkaleX.sizeDelta=;
+        }
 	}    
 }

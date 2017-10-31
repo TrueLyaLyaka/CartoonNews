@@ -2,8 +2,7 @@
 using System.Collections;
 // This GM drive game and everones episods
 // cunting the score
-public class GM : MonoBehaviour
-{
+public class GM : MonoBehaviour {
     #region Episode Start, Drive
     /* 1) load location
      * 2) set DirectPerson (DP) on position
@@ -21,9 +20,12 @@ public class GM : MonoBehaviour
     }
     #endregion
 
+
+
     // Use this for initialization
 	void Start () {
         StartEpisode(); 
+
 	}
 	
 	// Update is called once per frame
@@ -66,6 +68,7 @@ public class GM : MonoBehaviour
 2. рейтинг героя 
 3. 
 */
+
 
 #endregion
 
