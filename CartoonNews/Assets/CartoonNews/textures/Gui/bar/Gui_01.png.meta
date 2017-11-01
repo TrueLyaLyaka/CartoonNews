@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 150fb5d02d04fdb4d9efda91fbfab18e
-timeCreated: 1457820585
+timeCreated: 1509564649
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -43,6 +43,7 @@ TextureImporter:
     21300072: Gui_ce
     21300074: Gui_che
     21300076: Gui_she
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -96,6 +97,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 512
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 3
     compressionQuality: 50
@@ -104,6 +106,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 512
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 3
     compressionQuality: 50
@@ -112,6 +115,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: iPhone
     maxTextureSize: 512
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 3
     compressionQuality: 50
@@ -120,6 +124,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Android
     maxTextureSize: 512
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 3
     compressionQuality: 50
@@ -128,6 +133,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: WebGL
     maxTextureSize: 512
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 3
     compressionQuality: 50
@@ -169,10 +175,10 @@ TextureImporter:
       name: BarLine
       rect:
         serializedVersion: 2
-        x: 253
+        x: 258
         y: 225
-        width: 72
-        height: 34
+        width: 62
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

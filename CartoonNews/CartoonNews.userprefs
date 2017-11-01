@@ -1,15 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CartoonNews\scripts\forUnits\Lib.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CartoonNews\scripts\forUnits\HUD.cs">
     <Files>
-      <File FileName="Assets\CartoonNews\scripts\forUnits\Lib.cs" Line="43" Column="9" />
+      <File FileName="Assets\CartoonNews\scripts\forUnits\Lib.cs" Line="25" Column="1" />
       <File FileName="Assets\CartoonNews\scripts\GameDrivers\SceenLoadTimer.cs" Line="27" Column="1" />
       <File FileName="Assets\CartoonNews\scripts\GameDrivers\SceneChanger.cs" Line="7" Column="55" />
+      <File FileName="Assets\CartoonNews\scripts\forUnits\HUD.cs" Line="6" Column="36" />
       <File FileName="Assets\CartoonNews\scripts\supplies\bulletImpact.cs" Line="23" Column="15" />
-      <File FileName="Assets\CartoonNews\scripts\supplies\bulletMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\CartoonNews\scripts\forUnits\DriverAnimCharacter.cs" Line="61" Column="1" NotebookId="1" />
-      <File FileName="Assets\CartoonNews\scripts\GameDrivers\GM.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets\CartoonNews\scripts\supplies\Gun.cs" Line="37" Column="3" NotebookId="1" />
+      <File FileName="Assets\CartoonNews\scripts\forUnits\DriverAnimCharacter.cs" Line="66" Column="1" NotebookId="1" />
+      <File FileName="Assets\CartoonNews\scripts\GameDrivers\GM.cs" Line="5" Column="32" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

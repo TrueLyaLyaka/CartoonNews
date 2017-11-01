@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HUD : MonoBehaviour {
-public RectTransform HelthBarSkaleX;
+public GameObject HelthBarScale;
+
+
+GameObject PlayerH;
 	// Use this for initialization
 	void Awake() {
-		HelthBarSkaleX=GetComponent<RectTransform>();
+		
+
+
+		//PlayerH=GameObject.FindGameObjectWithTag(Lib.UseTag(Lib.UTags.Player)).GetComponent<DriverAnimCharacter>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		//sss=PlayerH/100;
 	}
 }
