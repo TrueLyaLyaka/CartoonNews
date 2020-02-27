@@ -6,3 +6,6 @@
 *.csproj
 /obj/
 *.userprefs
+/.vs/
+/Packages/
+/Logs/
